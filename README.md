@@ -1,8 +1,12 @@
 # Tweets_Classification_in_Python
 Tweets_Classification_using_NLTK-Python_and_K-Means_algorithm
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Binder link :
 https://mybinder.org/v2/gh/RaniaAbid-GH/Tweets_Classification_in_Python/master?filepath=Classification_des_tweets_Example2.ipynb
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 * Involves grouping tweets into 3 categories : Computer Science, Telecommunication and Electronic then performing K-Means clustering on the grouped tweets to observe how they behave.
 
@@ -20,7 +24,9 @@ https://mybinder.org/v2/gh/RaniaAbid-GH/Tweets_Classification_in_Python/master?f
   => In our case, context matters more than duplication thus making Jaccard similarity the most appropriate method to use.
   
   * After classifiying the tweets K-Means clustering comes in.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Step 1 : Importing libraries.
 
 Step 2 : Access to Twitter’s API using Tweepy / Verifying credentials :
