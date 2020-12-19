@@ -1,5 +1,5 @@
 # Tweets_Classification_in_Python
-Tweets_Classification_using_NLTK-Python
+Tweets_Classification_using_NLTK-Python_and_K-Means_algorithm
 
 # Binder link :
 https://mybinder.org/v2/gh/RaniaAbid-GH/Tweets_Classification_in_Python/master?filepath=Classification_des_tweets_Example2.ipynb
@@ -20,3 +20,56 @@ https://mybinder.org/v2/gh/RaniaAbid-GH/Tweets_Classification_in_Python/master?f
   => In our case, context matters more than duplication thus making Jaccard similarity the most appropriate method to use.
   
   * After classifiying the tweets K-Means clustering comes in.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Step 1 : Importing libraries.
+
+Step 2 : Access to Twitter’s API using Tweepy / Verifying credentials :
+
+Why is it beneficial to access Twitter API?
+* Tweets are by nature short-form and contain diverse and relevant topics, so by using Twitter API you get the type, volume and ‘newness’ of data.
+* Access to Twitter’s API can be acheived by Tweepy which is an open source package that allows you to bypass a lot of those low level details.
+
+Step 3 : Collecting Twitter data.
+
+Step 4 : Merging collected datasets into one csv file / Concate collected datasets.
+
+Step 5 : Cleaning data / Text preprocessing :
+* Remove punctuations.
+* Tokenizing.
+* Remove stopwords.
+* Stemming.
+* Lemmatizing.
+
+Step 6 : Saving extracted cleaned data.
+
+Step 7 : Defining the sets of words :
+* Computer science related words.
+* Telecommunication related words.
+* Electronic related words.
+
+Step 8 : Preprocessing the sets :
+* Tokenizing, Lemmatizing and removing stopwords.
+* Deleting duplicates
+
+Step 9 : Cosine Similarity :
+* Vectorizing and Standadizing.
+
+Step 10 : Jaccard Similarity :
+* Calculating jaccard scores for each group.
+* Defining a new dataframe containing names, and the jaccard scores for each group.
+* Clustering that dataframe.
+
+Step 11 : Data visualisation :
+* Pie chart showing the total number of tweets in each category.
+* A bar plot showing top tweets based on volume of tweets.
+
+Step 12 : Distribution :
+* Distribution per category (computer science-telecommunication-electronic).
+* Teleinformatics (telecommunication & computer science)
+* IoT distribution (computer science & electronic)
+
+Step 13 : K-Means clustering :
+* Data clustering.
+* 2D clustering.
+* Clustering with PCA.
+
