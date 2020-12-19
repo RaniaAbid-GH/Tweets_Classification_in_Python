@@ -25,10 +25,6 @@ Step 1 : Importing libraries.
 
 Step 2 : Access to Twitter’s API using Tweepy / Verifying credentials :
 
-Why is it beneficial to access Twitter API?
-* Tweets are by nature short-form and contain diverse and relevant topics, so by using Twitter API you get the type, volume and ‘newness’ of data.
-* Access to Twitter’s API can be acheived by Tweepy which is an open source package that allows you to bypass a lot of those low level details.
-
 Step 3 : Collecting Twitter data.
 
 Step 4 : Merging collected datasets into one csv file / Concate collected datasets.
